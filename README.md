@@ -1,3 +1,26 @@
+## rqt_moveit (jazzy) - 1.0.1-6
+
+The packages in the `rqt_moveit` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy rqt_moveit --override-release-repository-push-url git@github.com:revyos-ros/rqt_moveit-release` on `Mon, 24 Jun 2024 09:44:52 -0000`
+
+The `rqt_moveit` package was released.
+
+Version of package(s) in repository `rqt_moveit`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_moveit.git
+- release repository: https://github.com/revyos-ros/rqt_moveit-release.git
+- rosdistro version: `1.0.1-5`
+- old version: `1.0.1-5`
+- new version: `1.0.1-6`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rqt_moveit (rolling) - 1.0.1-1
 
 The packages in the `rqt_moveit` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling rqt_moveit --edit` on `Thu, 14 Jan 2021 08:20:52 -0000`
