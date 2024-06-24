@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/rqt_moveit-release
 tracks:
   eloquent:
     actions:
