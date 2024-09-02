@@ -1,0 +1,13 @@
+Source: ros-humble-rqt-moveit
+Section: misc
+Priority: optional
+Maintainer: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Build-Depends: debhelper (>= 9.0.0), python3-setuptools, ros-humble-rosidl-default-generators, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_moveit
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-moveit
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-humble-python-qt-binding (>= 0.2.19), ros-humble-rclpy, ros-humble-rqt-gui, ros-humble-rqt-gui-py, ros-humble-rqt-py-common, ros-humble-rqt-topic, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: An rqt-based tool that assists monitoring tasks for MoveIt! motion planner developers and users.
+ Currently the following items are monitored if they are either running, existing or published: Node: /move_group Parameter: [/robot_description, /robot_description_semantic] Topic: Following types are monitored. Published &quot;names&quot; are ignored. [sensor_msgs/PointCloud, sensor_msgs/PointCloud2, sensor_msgs/Image, sensor_msgs/CameraInfo] Since this package is not made by the MoveIt! development team (although with assistance from the them), please post issue reports to the designated tracker (not MoveIt!'s main tracker).
